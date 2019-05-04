@@ -1,1 +1,1 @@
-include("ghz.jl")
+include("test_ghz.jl")

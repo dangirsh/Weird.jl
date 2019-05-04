@@ -1,16 +1,23 @@
-* About
+* Weird.jl
+
+** Overview
 
 A playground for modeling and interpreting quantum phenomena.
 
 WIP - more to come!
 
-* GHZ
+*** Programmatic Interpretations of Quantum Mechanics
 
-** About
+To make the tests pass for a given experiment (e.g. GHZ), you need to change the structure / assumptions of the code. There is a strong correlation between each approach to changing the code and the many interpretations of quantum mechanics.
 
-Change the code to make the tests pass!
+** The Greenberger, Horne, and Zeilinger (GHZ) Experiment
 
-** Resources
+The [[https://thisquantumworld.com/the-mystique-of-quantum-mechanics/greenberger-horne-zeilinger/][GHZ Experiment]] is one of the cleanest examples of a quantum phenomenon that disupts our classical notions of locality.
 
+The code in [[file:src/ghz.jl][ghz.jl]] provides a simple model of the experiment. [[file:test/test_ghz.jl][test_ghz.jl]] checks that the results of the experiment match the reality (i.e. the predictions of quantum mechanics for this experiment).
+
+*** Resources
+
+- [[https://arxiv.org/abs/0712.0921][Going Beyond Bell's Theorem]]
 - [[http://www.physics.smu.edu/scalise/P5382fa15/Mermin1990a.pdf][Quantum Mysteries Revisited]]
 - [[https://arxiv.org/abs/0805.1002][Computational Power of Correlations]]
