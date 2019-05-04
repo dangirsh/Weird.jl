@@ -1,0 +1,4 @@
+name = "Weird"
+uuid = "a3ca8b22-6ea3-11e9-15dd-9d8a4623fc23"
+authors = ["Dan Girshovich <dan@rigetti.com>"]
+version = "0.1.0"
