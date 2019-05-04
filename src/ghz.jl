@@ -1,6 +1,4 @@
-using Base.Iterators: product, flatten
-using Combinatorics: permutations
-using Test
+using Base.Iterators: product
 using Random
 
 @enum Color red blue
@@ -49,8 +47,6 @@ end
 function measure(state::SystemState, context::ExperimentContext)::ExperimentResult
     ExperimentResult(measure(box, action) for (box, action) in zip(state, context))
 end
-
-export context1, context2, run_experiments
 
 const context1 = (poke, peek, peek)
 const context2 = (poke, poke, poke)
