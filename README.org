@@ -1,0 +1,16 @@
+* About
+
+A playground for modeling and interpreting quantum phenomena.
+
+WIP - more to come!
+
+* GHZ
+
+** About
+
+Change the code to make the tests pass!
+
+** Resources
+
+- [[http://www.physics.smu.edu/scalise/P5382fa15/Mermin1990a.pdf][Quantum Mysteries Revisited]]
+- [[https://arxiv.org/abs/0805.1002][Computational Power of Correlations]]
